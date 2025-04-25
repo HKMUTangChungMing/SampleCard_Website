@@ -1,0 +1,169 @@
+html{
+cursor: url(CURSOR_URL), auto;
+}
+
+
+
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	border: 1px solid #ccc;
+}
+
+	.flip-container:active .flipper,  
+  .flip-container.active .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 340px;
+	height: 518px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	background: url(./aaaa.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: rgba(76, 175, 80, 0);;
+}
+
+
+.back-logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp02.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp08.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp02.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp08.png) 0 0 no-repeat;
+		background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp02.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo5 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp08.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo6 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp02.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo7 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp08.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
+
+.back-logo8 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	background: url(./ppp02.png) 0 0 no-repeat;
+	background-size: 330px 518px;
+  z-index: 2;
+}
